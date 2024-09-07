@@ -1,41 +1,30 @@
 # JUDAMA
-Aplicaciòn de logistica de eventos
 
-Les invito a que comiencen a pensar en como van a abordar el proyecto con base en lo aprendido hasta el momento.
-## Daniel Agudelo 🤓
+### JUDAMA es una página web dedicada a la organización de eventos en Colombia. Este proyecto tiene como objetivo facilitar la creación, gestión y promoción de eventos para todo tipo de público, desde pequeños encuentros hasta grandes conferencias.
 
-markdown
+##### Características
 
-# JUDAMA
+> Creación de eventos: Los usuarios pueden crear y personalizar sus eventos, especificando detalles como fecha, hora, ubicación y descripción.
 
-## This is an H2
+> Gestión de asistentes: Herramientas para que los organizadores puedan gestionar la lista de asistentes y enviarles notificaciones. 
 
-###### This is an H6
+> Promoción de eventos: Sección dedicada a la promoción de eventos, con opciones para destacar eventos en la página principal.
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+>Interfaz amigable: Diseño responsivo y atractivo que se adapta a diferentes dispositivos.
+
+##### Tecnologías Utilizadas
 > 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
-Markdown allows you to be lazy and only put the > before the first line of a hard-wrapped paragraph:
+> 1.   HTML: Estructura de la página web.
+> 2.   CSS: Estilos y diseño de la interfaz de usuario.
+> 3.   JavaScript: Funcionalidad dinámica e interacción con el usuario.
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.
+##### Uso
 >
-> > ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
->
-> *   Red
-*   Green
-*   Blue
+> 1.Página Principal: Muestra los eventos destacados y permite a los usuarios navegar por las diferentes categorías de eventos.
+
+> 2.Crear Evento: Accede a la sección "Crear Evento" para configurar un nuevo evento.
+
+> 3.Gestionar Evento: Los organizadores pueden gestionar sus eventos, ver asistentes y enviar notificaciones.
+
+> 4.Promocionar Evento: Usa las herramientas de promoción para destacar eventos y atraer más participantes.
