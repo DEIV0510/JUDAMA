@@ -8,7 +8,7 @@
 
 > Gestión de asistentes: Herramientas para que los organizadores puedan gestionar la lista de asistentes y enviarles notificaciones. 
 
-> Promoción de eventos: Sección dedicada a la promoción de eventos, con opciones para destacar eventos en la página principal.
+> Ejemplos de eventos: Puedes ver otros eventos que hicieron con la pagina 
 
 >Interfaz amigable: Diseño responsivo y atractivo que se adapta a diferentes dispositivos.
 
@@ -23,8 +23,8 @@
 >
 > 1.Página Principal: Muestra los eventos destacados y permite a los usuarios navegar por las diferentes categorías de eventos.
 
-> 2.Crear Evento: Accede a la sección "Crear Evento" para configurar un nuevo evento.
+> 2.Escoger informacion de un evento: Muestra toda la informacion de el evento con lo que viene incluido y una zona de las preguntas mas frecuentes
 
 > 3.Gestionar Evento: Los organizadores pueden gestionar sus eventos, ver asistentes y enviar notificaciones.
 
-> 4.Promocionar Evento: Usa las herramientas de promoción para destacar eventos y atraer más participantes.
+> 4.Ver ejemplos de otros eventos: Puedes ver otros eventos de los cuales puedes usar ideas para hacer un evento que se acople a tus necesidades
