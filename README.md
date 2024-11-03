@@ -1,6 +1,6 @@
 # JUDAMA
 
-### JUDAMA es una página web dedicada a la organización de eventos en Colombia. Este proyecto tiene como objetivo facilitar la creación, gestión y promoción de eventos para todo tipo de público, desde pequeños encuentros hasta grandes conferencias.
+## JUDAMA es una página web dedicada a la organización de eventos en Colombia. Este proyecto tiene como objetivo facilitar la creación, gestión y promoción de eventos para todo tipo de público, desde pequeños encuentros hasta grandes conferencias donde los usuarios tendrán la oportunidad de agendar una cita para una asesoría donde les ayudarán con sus dudas sobre comida, música, etc. 
 
 ##### Características
 
