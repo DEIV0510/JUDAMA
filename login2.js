@@ -5,7 +5,7 @@ const formSignIn = document.querySelector('.sign-in');
 const formSignUp = document.querySelector('.sign-up');
 const containerWelcome = document.querySelector('.container-welcome');
 
-// Alternar entre los formularios de inicio de sesión y registro
+
 btnSignIn.addEventListener("click", () => {
     container.classList.remove("toggle");
     containerWelcome.classList.add('hidden');
@@ -20,7 +20,6 @@ btnSignUp.addEventListener("click", () => {
     formSignIn.classList.add('hidden');
 });
 
-// Función para el registro de usuario
 function signUp(event) {
     event.preventDefault();
     const nombre = document.querySelector('.sign-up input[name="nombre"]').value;
@@ -43,7 +42,7 @@ function signUp(event) {
     }
 }
 
-// Función para iniciar sesión de usuario
+
 function signIn(event) {
     event.preventDefault();
     const email = document.querySelector('.sign-in input[name="email"]').value;
@@ -54,13 +53,13 @@ function signIn(event) {
 
     if (user) {
         alert('Inicio de sesión exitoso!');
-        localStorage.setItem('loggedInUserEmail', email);  // Guardar el email del usuario logueado
-        window.location.href = '../PAGINA/index.html';  // Redirigir a la página de cuenta
+        localStorage.setItem('loggedInUserEmail', email); 
+        window.location.href = '../PAGINA/index.html'; 
     } else {
         alert('Correo electrónico o contraseña incorrectos');
     }
 }
 
-// Event listeners para enviar los formularios
+
 formSignUp.addEventListener('submit', signUp);
 formSignIn.addEventListener('submit', signIn);
