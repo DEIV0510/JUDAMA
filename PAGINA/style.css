@@ -452,7 +452,7 @@ header {
 }
 .reserv {
     padding: 50px 0;
-    background-image: url(images/fondo.png);/* Fondo claro para la sección */
+    background-image: url(images/fondo.png);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -461,31 +461,34 @@ header {
 .info-txt {
     text-align: center;
     margin-bottom: 50px;
+
+
 }
 
 .info-txt h2 {
-    font-size: 36px;
+    font-size: 50px;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .info-sec {
     display: flex;
     justify-content: space-between;
-    gap: 50px; /* Espacio entre el formulario y la tabla */
+    gap: 50px; 
 }
 
 .form-container, .table-container {
-    background-color: #ffffff; /* Fondo blanco para el formulario y la tabla */
+    background-color: #ffffff; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    flex: 1; /* Para que ambos contenedores ocupen el mismo espacio */
+    flex: 1; 
 }
 
 .form-container h3, .table-container h3 {
     font-size: 24px;
-    color: #ffafde; /* Color rosa para los títulos */
+    color: #ffafde; 
     margin-bottom: 20px;
 }
 
@@ -515,12 +518,12 @@ button {
 }
 
 button:hover {
-    background-color: #ff92d2; /* Efecto hover más oscuro */
+    background-color: #ff92d2; 
 }
 
 .table-container {
-    max-width: 600px; /* Limitar el ancho de la tabla */
-    margin: 0 auto; /* Centrar la tabla */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 table {
