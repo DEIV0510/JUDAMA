@@ -1,0 +1,42 @@
+body{
+    background-image: url(../PAGINA/images/fondo.png);
+}
+.container-account {
+    max-width: 600px;
+    margin: 100px auto; /* Centramos el contenedor */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centra el texto */
+}
+
+.container-account h1 {
+    font-size: 36px;
+    color: #ffafde; /* Color rosa */
+    margin-bottom: 20px;
+}
+
+.account-details {
+    margin-bottom: 30px; /* Espacio entre detalles y botón */
+}
+
+.account-details p {
+    font-size: 18px;
+    color: #4d4d4d; /* Color gris oscuro */
+}
+
+.btn-1 {
+    display: inline-block;
+    background: linear-gradient(90deg, #ffafde 0%, #ffb3bb 200%);
+    padding: 10px 35px;
+    color: #000000;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none; /* Sin borde para el botón */
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background: linear-gradient(90deg, #ff92d2 0%, #ff7885 200%);
+}

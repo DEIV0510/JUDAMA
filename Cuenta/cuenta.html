@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="cuenta.css">
 </head>
 <body>
-    Nombre
-    correo
-
+    <div class="container-account">
+        <h1>Mi Cuenta</h1>
+        <div class="account-details">
+            <p><strong>Nombre:</strong> <span id="user-name"></span></p>
+            <p><strong>Email:</strong> <span id="user-email"></span></p>
+        </div>
+        <button id="logout">Cerrar sesión</button>
+    </div>
+    <script src="cuenta.js"></script>
 </body>
 </html>
