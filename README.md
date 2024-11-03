@@ -1,12 +1,12 @@
 # JUDAMA
 
-## JUDAMA es una página web dedicada a la organización de eventos en Colombia. Este proyecto tiene como objetivo facilitar la creación, gestión y promoción de eventos para todo tipo de público, desde pequeños encuentros hasta grandes conferencias donde los usuarios tendrán la oportunidad de agendar una cita para una asesoría donde les ayudarán con sus dudas sobre comida, música, etc. 
+## JUDAMA es una página web dedicada a la organización de eventos en Colombia. Este proyecto tiene como objetivo facilitar la creación, gestión y promoción de eventos para todo tipo de público, desde pequeños encuentros hasta grandes conferencias, donde los usuarios tendrán la oportunidad de agendar una cita para una asesoría en la que les ayudarán con sus dudas sobre comida, música, etc.
 
 ##### Características
 
-> Creación de eventos: Los usuarios pueden crear y personalizar sus eventos, especificando detalles como fecha, hora, ubicación y descripción.
+> Creación de eventos: Los usuarios, con la ayuda de especialistas, pueden crear y personalizar sus eventos, especificando detalles como fecha, hora, ubicación y descripción.
 
-> Gestión de asistentes: Herramientas para que los organizadores puedan gestionar la lista de asistentes y enviarles notificaciones. 
+> Posibilidad de crear una cuenta: Con esta cuenta podrás guardar tus asesorías y ajustar la fecha y hora en las que las deseas.
 
 > Ejemplos de eventos: Puedes ver otros eventos que hicieron con la pagina 
 
@@ -21,10 +21,18 @@
 
 ##### Uso
 >
-> 1.Página Principal: Muestra los eventos destacados y permite a los usuarios navegar por las diferentes categorías de eventos.
+> 1.Al abrir la página, debes iniciar sesión y, en caso de no tener cuenta, puedes registrarte para poder navegar por toda la página.
 
-> 2.Escoger informacion de un evento: Muestra toda la informacion de el evento con lo que viene incluido y una zona de las preguntas mas frecuentes
+> 2.Al ingresar a la página, tendrás una interfaz muy atractiva donde, al bajar, encontrarás la información sobre nuestros eventos, información sobre nosotros y testimonios de otras personas.
 
-> 3.Gestionar Evento: Los organizadores pueden gestionar sus eventos, ver asistentes y enviar notificaciones.
+> 3.Tendrás la opción de agendar una asesoría sobre el evento que deseas, para que nuestros especialistas te ayuden con la creación de tu evento.
 
-> 4.Ver ejemplos de otros eventos: Puedes ver otros eventos de los cuales puedes usar ideas para hacer un evento que se acople a tus necesidades
+> 4.En caso de que desees hacer un cambio en la hora o en la fecha, en la aplicación lo puedes hacer; si deseas cancelar, también lo puedes hacer.
+
+> 5.Y al finalizar tu asesoría, puedes cerrar sesión y luego volver a iniciar.
+
+
+##### Problemas en la creación
+Uno de los problemas más grandes fue la poca base que teníamos en programación, que debió haber sido explicada en el grado décimo.
+
+A la hora de la creación de la página, surgieron diferentes inconvenientes. Uno de ellos fue la creación de una base de datos, ya que al no contar con buenos computadores en el colegio y en el hogar, se presentaban problemas en la descarga. Debido a estos problemas, por recomendación del profesor, utilizamos LocalStorage como base de datos, y así solucionamos el problema.
