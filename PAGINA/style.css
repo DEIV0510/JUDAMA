@@ -450,6 +450,93 @@ header {
 .social img{
     margin: 8px 0 0 10px;
 }
+.reserv {
+    padding: 50px 0;
+    background-image: url(images/fondo.png);/* Fondo claro para la sección */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.info-txt {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-txt h2 {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.info-sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* Espacio entre el formulario y la tabla */
+}
+
+.form-container, .table-container {
+    background-color: #ffffff; /* Fondo blanco para el formulario y la tabla */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    flex: 1; /* Para que ambos contenedores ocupen el mismo espacio */
+}
+
+.form-container h3, .table-container h3 {
+    font-size: 24px;
+    color: #ffafde; /* Color rosa para los títulos */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffafde;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff92d2; /* Efecto hover más oscuro */
+}
+
+.table-container {
+    max-width: 600px; /* Limitar el ancho de la tabla */
+    margin: 0 auto; /* Centrar la tabla */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #ffafde;
+}
 
 @media(max-width: 991px){
 

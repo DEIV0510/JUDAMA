@@ -24,7 +24,7 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#testim">testimonios</a></li>
-                    <li><a href="../Cita/cita.html">Reservar Asesoría</a></li>
+                    <li><a href="#reserv">Reservar Asesoría</a></li>
                 </ul>
             </nav>
         </div>
@@ -457,10 +457,9 @@
                             <label for="eventName">Nombre del Evento:</label>
                             <select id="eventName" required>
                                 <option value="" disabled selected>Seleccione un evento</option>
-                                <option value="Conferencia">Conferencia</option>
-                                <option value="Taller">Taller</option>
-                                <option value="Seminario">Seminario</option>
-                                <option value="Webinar">Webinar</option>
+                                <option value="Fiesta de 15s">Fiesta de 15S</option>
+                                <option value="Cumpleaños">Cumpleaños</option>
+                                <option value="Bodas">Bodas</option>
                             </select>
                             
                             <label for="applicant">Solicitante:</label>
@@ -499,7 +498,6 @@
         </div>
     </section>
 
-
     <footer class="footer container">
         <img class="logo-2" src="images/LOGO3.png" alt="">
 
@@ -533,73 +531,7 @@
             </div>
         </div>
     </footer>
- <script>
-        // Función para obtener reservaciones desde localStorage
-        function getReservations() {
-            return JSON.parse(localStorage.getItem('reservations')) || [];
-        }
-    
-        // Función para guardar reservaciones en localStorage
-        function saveReservations(reservations) {
-            localStorage.setItem('reservations', JSON.stringify(reservations));
-        }
-    
-        // Función para renderizar las reservaciones en la tabla
-        function renderReservations() {
-            const reservations = getReservations();
-            const reservationsTable = document.querySelector("#reservationsTable tbody");
-            reservationsTable.innerHTML = "";
-    
-            reservations.forEach((reservation, index) => {
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td>${reservation.eventName}</td>
-                    <td>${reservation.applicant}</td>
-                    <td><input type="date" value="${reservation.eventDate}" onchange="updateReservation(${index}, 'eventDate', this.value)"></td>
-                    <td><input type="time" value="${reservation.eventTime}" onchange="updateReservation(${index}, 'eventTime', this.value)"></td>
-                    <td>
-                        <button onclick="deleteReservation(${index})">Cancelar</button>
-                    </td>
-                `;
-                reservationsTable.appendChild(row);
-            });
-        }
-    
-        // Función para agregar una nueva reservación
-        document.getElementById("reservationForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            const eventName = document.getElementById("eventName").value;
-            const applicant = document.getElementById("applicant").value;
-            const eventDate = document.getElementById("eventDate").value;
-            const eventTime = document.getElementById("eventTime").value;
-    
-            const reservations = getReservations();
-            reservations.push({ eventName, applicant, eventDate, eventTime });
-            saveReservations(reservations);
-            renderReservations();
-    
-            this.reset();
-        });
-    
-        // Función para actualizar una reservación
-        function updateReservation(index, key, value) {
-            const reservations = getReservations();
-            reservations[index][key] = value;
-            saveReservations(reservations);
-            renderReservations();
-        }
-    
-        // Función para eliminar una reservación
-        function deleteReservation(index) {
-            const reservations = getReservations();
-            reservations.splice(index, 1);
-            saveReservations(reservations);
-            renderReservations();
-        }
-    
-        // Renderizar reservaciones al cargar la página
-        document.addEventListener("DOMContentLoaded", renderReservations);
-    </script>
+
 
 
     <script src="script.js"></script>
