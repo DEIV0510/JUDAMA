@@ -1,4 +1,5 @@
 
+//Selecciona las variables que van a ser utilizadas en el codigo
 const container = document.querySelector(".container");
 const btnSignIn = document.getElementById("btn-sign-in");
 const btnSignUp = document.getElementById("btn-sign-up");
@@ -6,7 +7,7 @@ const formSignIn = document.querySelector('.sign-in');
 const formSignUp = document.querySelector('.sign-up');
 const containerWelcome = document.querySelector('.container-welcome');
 
-
+//Animaciones de pagina de inicio de sesion a pagina de registro 
 btnSignIn.addEventListener("click", () => {
     container.classList.remove("toggle");
     containerWelcome.classList.add('hidden');
@@ -20,7 +21,7 @@ btnSignUp.addEventListener("click", () => {
     formSignUp.classList.remove('hidden');
     formSignIn.classList.add('hidden');
 });
-
+//Seccion donde las personas se registran guardando la informacion en el LocalStorage
 function signUp(event) {
     event.preventDefault();
     const nombre = document.querySelector('.sign-up input[name="nombre"]').value;
@@ -43,7 +44,7 @@ function signUp(event) {
     }
 }
 
-
+ //Vefica que los datos sean correctos lo lleva a la pagina principal de no ser asi sale un mensaje de alerta
 function signIn(event) {
     event.preventDefault();
     const email = document.querySelector('.sign-in input[name="email"]').value;
@@ -55,13 +56,12 @@ function signIn(event) {
     if (user) {
         alert('Inicio de sesión exitoso!');
         localStorage.setItem('loggedInUser Email', email);      
-        // Verifica que la URL de redirección sea correcta
         window.location.href = './PAGINA/index.html';
     } else {
         alert('Correo electrónico o contraseña incorrectos');
     }
 }
 
-
+//Valida los botones de Inicio de Sesion y de registro 
 formSignUp.addEventListener('submit', signUp);
 formSignIn.addEventListener('submit', signIn);
