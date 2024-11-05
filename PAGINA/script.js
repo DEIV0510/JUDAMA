@@ -25,12 +25,11 @@ function tabs(nav) {
         if (hasClass(target, "tab")) {
             radioClass(target, "active");
 
-            // Ocultar todas las pestañas vinculadas
+
             E(".tab-content.visible").forEach((content) => {
                 content.classList.remove("visible");
             });
 
-            // Mostrar la pestaña vinculada
             let linkedTab = E("." + target.id)[0];
             if (linkedTab) {
                 radioClass(linkedTab, "visible");
@@ -107,7 +106,7 @@ function saveReservations(reservations) {
 
 function renderReservations() {
     const reservations = getReservations();
-    const reservationsTable = document.querySelector("#reservationsTable tbody"); // Corregido: .querySelector
+    const reservationsTable = document.querySelector("#reservationsTable tbody"); 
     reservationsTable.innerHTML = "";
 
     reservations.forEach((reservation, index) => {
@@ -136,7 +135,7 @@ document.getElementById("reservationForm").addEventListener("submit", function (
         const reservations = getReservations();
         reservations.push({ eventName, applicant, eventDate, eventTime });
         saveReservations(reservations);
-        renderReservations(); // Corregido: sin espacio
+        renderReservations();
 
         this.reset();
     } else {
