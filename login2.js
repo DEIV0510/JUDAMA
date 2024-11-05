@@ -1,3 +1,4 @@
+
 const container = document.querySelector(".container");
 const btnSignIn = document.getElementById("btn-sign-in");
 const btnSignUp = document.getElementById("btn-sign-up");
@@ -53,8 +54,9 @@ function signIn(event) {
 
     if (user) {
         alert('Inicio de sesión exitoso!');
-        localStorage.setItem('loggedInUserEmail', email); 
-        window.location.href = '../PAGINA/index.html'; 
+        localStorage.setItem('loggedInUser Email', email);      
+        // Verifica que la URL de redirección sea correcta
+        window.location.href = './PAGINA/index.html';
     } else {
         alert('Correo electrónico o contraseña incorrectos');
     }
