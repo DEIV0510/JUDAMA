@@ -3,27 +3,27 @@ body{
 }
 .container-account {
     max-width: 600px;
-    margin: 100px auto; /* Centramos el contenedor */
+    margin: 100px auto; 
     padding: 20px;
-    background-color: #ffffff; /* Fondo blanco */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    text-align: center; /* Centra el texto */
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
 }
 
 .container-account h1 {
     font-size: 36px;
-    color: #ffafde; /* Color rosa */
+    color: #ffafde; 
     margin-bottom: 20px;
 }
 
 .account-details {
-    margin-bottom: 30px; /* Espacio entre detalles y botón */
+    margin-bottom: 30px;
 }
 
 .account-details p {
     font-size: 18px;
-    color: #4d4d4d; /* Color gris oscuro */
+    color: #4d4d4d; 
 }
 
 .btn-1 {
@@ -33,7 +33,7 @@ body{
     color: #000000;
     border-radius: 25px;
     font-size: 16px;
-    border: none; /* Sin borde para el botón */
+    border: none; 
     cursor: pointer;
 }
 
